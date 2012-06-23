@@ -3,4 +3,24 @@
   <groupId>java-instagram</groupId>
   <artifactId>java-instagram</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+      <dependency>
+    	<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20090211</version>
+    	<type>jar</type>
+    </dependency>
+	<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.3</version>
+	</dependency>
+    <dependency>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <version>3.1</version>
+    </dependency>
+  </dependencies>
+  
 </project>
